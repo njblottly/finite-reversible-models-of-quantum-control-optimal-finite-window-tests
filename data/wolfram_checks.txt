@@ -1,0 +1,8 @@
+Engine: Mathematica 13.3.0 Running on MacOs CPython 3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ] using SymPy 1.14.0, mpmath 1.3.0, numpy 2.3.5, cython Not installed, scipy 1.17.0, skimage Not installed
+Target recurrence evaluated.
+Basis signs evaluated.
+Primal bands evaluated.
+Exact checks passed: 260
+Optimal radius (a,b): {6839009527 / 34359738368, 157095855 / 4294967296}
+Optimal radius decimal: 0.25076868003434436295
+PASS

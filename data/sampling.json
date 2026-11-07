@@ -1,0 +1,256 @@
+{
+  "seed": 20261102,
+  "depths": [
+    6,
+    12,
+    22,
+    28,
+    41,
+    47,
+    57,
+    63
+  ],
+  "signs": [
+    1,
+    -1,
+    -1,
+    1,
+    -1,
+    1,
+    1,
+    -1
+  ],
+  "results": [
+    {
+      "total_shots": 16,
+      "shots_per_depth": 2,
+      "law": "quantum",
+      "rejection_rate": 0.37415,
+      "numerically_evaluated_rejection": 0.3741113211350252,
+      "alpha": 0.05,
+      "threshold": 0.30596835383510207,
+      "quantum_power_lower_bound": 0.0,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 16,
+      "shots_per_depth": 2,
+      "law": "constant_half",
+      "rejection_rate": 0.011,
+      "numerically_evaluated_rejection": 0.010635375976562512,
+      "alpha": 0.05,
+      "threshold": 0.30596835383510207,
+      "quantum_power_lower_bound": 0.0,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 16,
+      "shots_per_depth": 2,
+      "law": "period_7",
+      "rejection_rate": 0.0028,
+      "numerically_evaluated_rejection": 0.0024340543934918933,
+      "alpha": 0.05,
+      "threshold": 0.30596835383510207,
+      "quantum_power_lower_bound": 0.0,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 32,
+      "shots_per_depth": 4,
+      "law": "quantum",
+      "rejection_rate": 0.76535,
+      "numerically_evaluated_rejection": 0.7703861823832415,
+      "alpha": 0.05,
+      "threshold": 0.21635229782528567,
+      "quantum_power_lower_bound": 0.07300507800194889,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 32,
+      "shots_per_depth": 4,
+      "law": "constant_half",
+      "rejection_rate": 0.01105,
+      "numerically_evaluated_rejection": 0.01003080350346864,
+      "alpha": 0.05,
+      "threshold": 0.21635229782528567,
+      "quantum_power_lower_bound": 0.07300507800194889,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 32,
+      "shots_per_depth": 4,
+      "law": "period_7",
+      "rejection_rate": 0.00215,
+      "numerically_evaluated_rejection": 0.002221178068833836,
+      "alpha": 0.05,
+      "threshold": 0.21635229782528567,
+      "quantum_power_lower_bound": 0.07300507800194889,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 64,
+      "shots_per_depth": 8,
+      "law": "quantum",
+      "rejection_rate": 0.98665,
+      "numerically_evaluated_rejection": 0.9872623051571917,
+      "alpha": 0.05,
+      "threshold": 0.15298417691755103,
+      "quantum_power_lower_bound": 0.7059223874962419,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 64,
+      "shots_per_depth": 8,
+      "law": "constant_half",
+      "rejection_rate": 0.00935,
+      "numerically_evaluated_rejection": 0.008429095022140556,
+      "alpha": 0.05,
+      "threshold": 0.15298417691755103,
+      "quantum_power_lower_bound": 0.7059223874962419,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 64,
+      "shots_per_depth": 8,
+      "law": "period_7",
+      "rejection_rate": 0.0023,
+      "numerically_evaluated_rejection": 0.0017238600936758622,
+      "alpha": 0.05,
+      "threshold": 0.15298417691755103,
+      "quantum_power_lower_bound": 0.7059223874962419,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 96,
+      "shots_per_depth": 12,
+      "law": "quantum",
+      "rejection_rate": 0.9998,
+      "numerically_evaluated_rejection": 0.9997731226657305,
+      "alpha": 0.05,
+      "threshold": 0.12491105738922276,
+      "quantum_power_lower_bound": 0.9522275949384128,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 96,
+      "shots_per_depth": 12,
+      "law": "constant_half",
+      "rejection_rate": 0.00885,
+      "numerically_evaluated_rejection": 0.009216676465731292,
+      "alpha": 0.05,
+      "threshold": 0.12491105738922276,
+      "quantum_power_lower_bound": 0.9522275949384128,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 96,
+      "shots_per_depth": 12,
+      "law": "period_7",
+      "rejection_rate": 0.00205,
+      "numerically_evaluated_rejection": 0.001954969898282635,
+      "alpha": 0.05,
+      "threshold": 0.12491105738922276,
+      "quantum_power_lower_bound": 0.9522275949384128,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 128,
+      "shots_per_depth": 16,
+      "law": "quantum",
+      "rejection_rate": 1.0,
+      "numerically_evaluated_rejection": 0.9999965583731841,
+      "alpha": 0.05,
+      "threshold": 0.10817614891264284,
+      "quantum_power_lower_bound": 0.9945117907602761,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 128,
+      "shots_per_depth": 16,
+      "law": "constant_half",
+      "rejection_rate": 0.00795,
+      "numerically_evaluated_rejection": 0.00833536713484867,
+      "alpha": 0.05,
+      "threshold": 0.10817614891264284,
+      "quantum_power_lower_bound": 0.9945117907602761,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 128,
+      "shots_per_depth": 16,
+      "law": "period_7",
+      "rejection_rate": 0.00155,
+      "numerically_evaluated_rejection": 0.001690351256668489,
+      "alpha": 0.05,
+      "threshold": 0.10817614891264284,
+      "quantum_power_lower_bound": 0.9945117907602761,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 256,
+      "shots_per_depth": 32,
+      "law": "quantum",
+      "rejection_rate": 1.0,
+      "numerically_evaluated_rejection": 0.9999999999999913,
+      "alpha": 0.05,
+      "threshold": 0.07649208845877552,
+      "quantum_power_lower_bound": 0.9999998236214237,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 256,
+      "shots_per_depth": 32,
+      "law": "constant_half",
+      "rejection_rate": 0.00655,
+      "numerically_evaluated_rejection": 0.007314174448760262,
+      "alpha": 0.05,
+      "threshold": 0.07649208845877552,
+      "quantum_power_lower_bound": 0.9999998236214237,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 256,
+      "shots_per_depth": 32,
+      "law": "period_7",
+      "rejection_rate": 0.0014,
+      "numerically_evaluated_rejection": 0.001397379160746393,
+      "alpha": 0.05,
+      "threshold": 0.07649208845877552,
+      "quantum_power_lower_bound": 0.9999998236214237,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 512,
+      "shots_per_depth": 64,
+      "law": "quantum",
+      "rejection_rate": 1.0,
+      "numerically_evaluated_rejection": 1.0000000000000007,
+      "alpha": 0.05,
+      "threshold": 0.05408807445632142,
+      "quantum_power_lower_bound": 1.0,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 512,
+      "shots_per_depth": 64,
+      "law": "constant_half",
+      "rejection_rate": 0.00675,
+      "numerically_evaluated_rejection": 0.007494828085965147,
+      "alpha": 0.05,
+      "threshold": 0.05408807445632142,
+      "quantum_power_lower_bound": 1.0,
+      "replicates": 20000
+    },
+    {
+      "total_shots": 512,
+      "shots_per_depth": 64,
+      "law": "period_7",
+      "rejection_rate": 0.00115,
+      "numerically_evaluated_rejection": 0.0014458765190960492,
+      "alpha": 0.05,
+      "threshold": 0.05408807445632142,
+      "quantum_power_lower_bound": 1.0,
+      "replicates": 20000
+    }
+  ]
+}

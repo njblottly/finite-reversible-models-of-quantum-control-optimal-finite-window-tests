@@ -1,0 +1,116 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3608,        108]
+NotebookOptionsPosition[      2644,         84]
+NotebookOutlinePosition[      3040,        100]
+CellTagsIndexPosition[      2997,         97]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Finite reversible control : exact certificates", "Title",
+ CellChangeTimes->{{4.0030004516443853`*^9, 4.003000451645679*^9}, 
+   4.003000491482463*^9},ExpressionUUID->"9ae29035-cf6c-47b1-ae92-\
+05dd38ee2b24"],
+
+Cell["\<\
+Each pair {a, b} denotes a + b Sqrt[2] . The verification source checks the \
+45 - variable optimal certificate exactly. Evaluate the following cell in \
+Mathematica to record a native run .
+\
+\>", "Text",
+ CellChangeTimes->{{4.0030004981857157`*^9, 4.0030005223590927`*^9}, {
+  4.0030005570295563`*^9, 
+  4.003000561985558*^9}},ExpressionUUID->"9568cb6e-1ee4-4ce8-bb51-\
+a1266c224ce8"],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", "\"\<verify.wl\>\""}],
+     "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{4.003000565484602*^9, 
+  4.003000566573794*^9}},ExpressionUUID->"8e54e60d-be68-4651-a344-\
+16e4371ebd94"],
+
+Cell["\<\
+In addition to Mathematica validation, a recorded independent result us \
+Mathics3 10.0.1 passed 260 exact checks. The optimal radius was \
+0.25076868003434436295. See ../data/wolfram_checks.txt for the complete \
+actual execution record. \
+\>", "Text",
+ CellChangeTimes->{{4.003000579122285*^9, 
+  4.0030005935768843`*^9}},ExpressionUUID->"c17d6628-09f1-4d4a-a36b-\
+c6c1ce35c3da"],
+
+Cell[CellGroupData[{
+
+Cell["Independent native Mathematica optimization", "Section",
+ CellChangeTimes->{{4.003000598273601*^9, 
+  4.003000611345743*^9}},ExpressionUUID->"281e6914-ad50-4f33-82df-\
+fd2a7df72d77"],
+
+Cell[BoxData[
+ RowBox[{"Get", "[", 
+  RowBox[{"FileNameJoin", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], ",", " ", 
+     "\"\<optimize.wl\>\""}], "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{
+  4.0030006191375628`*^9},ExpressionUUID->"2ce50451-6ac2-4019-9735-\
+f459b47f2f24"],
+
+Cell[BoxData[
+ RowBox[{"WindowModel", "[", 
+  RowBox[{"8", ",", " ", "64"}], "]"}]], "Input",ExpressionUUID->"ed862cd9-\
+64b8-442a-9474-94697ffd4999"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{Automatic, 493}, {160, Automatic}},
+FrontEndVersion->"13.3 for Mac OS X ARM (64-bit) (April 11, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"33c4d8f1-6a7a-499f-bf55-ab7c2d227203"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 214, 3, 160, "Title",ExpressionUUID->"9ae29035-cf6c-47b1-ae92-05dd38ee2b24"],
+Cell[797, 27, 396, 9, 81, "Text",ExpressionUUID->"9568cb6e-1ee4-4ce8-bb51-a1266c224ce8"],
+Cell[1196, 38, 338, 9, 30, "Input",ExpressionUUID->"8e54e60d-be68-4651-a344-16e4371ebd94"],
+Cell[1537, 49, 391, 8, 81, "Text",ExpressionUUID->"c17d6628-09f1-4d4a-a36b-c6c1ce35c3da"],
+Cell[CellGroupData[{
+Cell[1953, 61, 188, 3, 67, "Section",ExpressionUUID->"281e6914-ad50-4f33-82df-fd2a7df72d77"],
+Cell[2144, 66, 319, 9, 30, "Input",ExpressionUUID->"2ce50451-6ac2-4019-9735-f459b47f2f24"],
+Cell[2466, 77, 150, 3, 30, "Input",ExpressionUUID->"ed862cd9-64b8-442a-9474-94697ffd4999"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+

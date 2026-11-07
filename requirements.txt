@@ -1,0 +1,14 @@
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+sympy==1.14.0
+Pillow>=10
+
+| Item | Value |
+|---|---|
+| **Mathematica version** | 13.3.0 |
+| **Platform** | macOS, Apple Silicon ARM64, 64-bit |
+| **Release date** | 11 April 2023 |
+| **Release ID** | `13.3.0.0 (8404360, 202304113129)` |
+| **Patch level** | 0 |
+| **Character encoding** | UTF-8 |
